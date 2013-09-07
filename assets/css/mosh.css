@@ -1,0 +1,136 @@
+/* =colors
+  color: #42d3ff; light blue
+*/
+@font-face {
+  font-family: "Arsenal-Bold";
+  src: url('../fonts/Arsenal-Bold.otf');
+}
+
+@font-face {
+  font-family: "century-bold";
+  src: url('../fonts/gothicb.ttf');
+}
+
+.container {
+  width: 1024px;
+  background-color: #fff;
+}
+
+.header {
+  height:95px;
+}
+
+.header-logo {
+  top: 10px;
+  margin-left: 94px;
+  position: absolute;
+}
+
+.tag-line {
+  margin-top: 10px;
+  margin-left: 359px;
+  border-left: 7px solid #42d3ff;
+  height: 85px;
+  width: 575px;
+}
+
+.tag-line p {
+  color: #42d3ff;
+  padding-left: 30px;
+  padding-top: 18px;
+  line-height: 26px;
+  font-family: Arsenal-Bold;
+  font-size: 30px;
+}
+
+.login-button-fan {
+  float: left;
+  margin-right: 1px;
+}
+
+/* begin carousel custom */
+.carousel {
+  margin-bottom: 0;
+}
+
+.carousel-control {
+  background: none;
+  border: none;
+  margin-top: 0;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 300px;
+  left: 465px;
+}
+
+.carousel-indicators li {
+  margin-right:5px;
+  background-color: rgba(255, 255, 255, 0.60);
+}
+
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* end carousel custom */
+
+.login-buttons {
+  margin-bottom: 20px;
+}
+
+/* begin mid box container */
+.mid-containers {
+  padding-left: 29px;
+}
+
+.mid-box-container {
+  border: 8px solid #efefef;
+  width: 300px;
+  height: 190px;
+  float: left;
+  margin-bottom: 26px;
+  margin-right: 10px;
+}
+
+.mid-box-container p {
+  color: #42d3ff;
+  text-align: center;
+  font-family: "century-bold";
+}
+
+.main-text {
+  font-size: 32px;
+  padding-top: 24px;
+  line-height: 28px;
+}
+
+.sub-text {
+  padding: 0;
+  margin-top: -7px;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.mid-box-container.center p {
+  padding-top: 53px;
+}
+
+.icons-store {
+  margin: 0 auto;
+  width: 254px;
+  margin-top: 15px;
+}
+/* begin mid box container */
