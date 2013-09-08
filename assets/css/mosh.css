@@ -48,9 +48,30 @@
   font-size: 30px;
 }
 
-.login-button-fan {
+.login-button {
+  display: block;
+  height: 31px;
   float: left;
+  background-color: #089edd;
+  color: #fff;
+  font-family: century-bold;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 12px;
+}
+
+.login-button.fan {
+  width: 522px;
   margin-right: 1px;
+}
+
+.login-button.artist-brand {
+  width: 501px;
+}
+
+.login-button:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* begin carousel custom */
@@ -106,6 +127,8 @@
 /* begin mid box container */
 .mid-containers {
   padding-left: 29px;
+  margin-top: 27px;
+  float: left;
 }
 
 .mid-box-container {
@@ -176,3 +199,133 @@
 .copyright {
 
 }
+
+
+/******** START ALEC EDIT ***************/
+
+@font-face
+{
+font-family: CenturyGothic;
+src: url("../fonts/CenturyGothic.ttf");
+}
+
+@font-face
+{
+font-family: CenturyGothicBold;
+src: url("../fonts/gothicb.ttf");
+}
+
+.header-scorecard {
+  height:105px;
+	padding-bottom:10px;
+	
+	background:url("../img/bg-header-scorecard.png") repeat-x; 
+	
+	
+}
+
+.mid-containers {
+  padding-left: 29px;
+  margin-top: 10px;
+  float: left;
+}
+
+.mid-box-table {
+  border: 1px solid #efefef;
+  width: 353px;
+  height: 397px;
+  float: left;
+  margin-bottom: 26px;
+  margin-right: 10px;
+}
+
+
+.mid-box-chart {
+  
+  width: 246px;
+  height: 397px;
+  float: left;
+  margin-bottom: 26px;
+  margin-right: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #acaaad;
+}
+
+table.table1 td.icon{
+     text-align: center;
+		 padding-left:0px;
+}
+
+.table1 thead{
+  background: #8c8c8c;
+	font-family:CenturyGothicBold;
+	color:#ffffff;
+	
+}
+
+table td{
+padding-left:10px;
+border-right:1px solid #acaaad;;
+}
+
+tbody.table-odd-row{
+	
+	font-family:CenturyGothic;
+	color:#8c8c8c;
+	}
+
+
+
+.table-odd-row  tr:nth-child(odd)		{
+background-color:#eeeeee;
+padding-left:10px;
+}
+
+.table-odd-row	tr:nth-child(even)		{
+background-color:#fafafa; 
+}
+
+
+
+.table1 .table-odd-row{
+ background: #8c8c8c;
+}
+
+.header-scorecard-logo {
+  top: 10px;
+  margin-left: 34px;
+	
+	
+  position: absolute;
+}
+
+.image-chart {
+  overflow:hidden;
+	margin-top:-2px;
+}
+
+.image-legend {
+  overflow:hidden;
+	margin-top:7px;
+}
+
+
+.tag-line-scorecard {
+   height: 55px;
+  max-width: 575px;
+	
+}
+
+.tag-line-scorecard p {
+  color: #079edc;
+  padding-left: 4px;
+  line-height: 26px;
+ 	font-family:CenturyGothicBold;
+  font-size: 25px;
+}
+
+/******** End ALEC EDIT ***************/
+
