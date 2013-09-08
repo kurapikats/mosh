@@ -264,6 +264,7 @@ hr {
 
 /******** START ALEC EDIT ***************/
 
+
 @font-face
 {
 font-family: CenturyGothic;
@@ -285,11 +286,42 @@ src: url("../fonts/gothicb.ttf");
 	
 }
 
+.header-artist-brand{
+  height:245px;
+	padding-bottom:10px;
+
+	background:url("../img/bg-login-header.jpg") no-repeat; 
+}
+
+.middle-artist-brand{
+  height:245px;
+	padding-bottom:10px;
+	
+	background:url("../img/bg-login-middle.jpg") no-repeat; 
+}
+
+.footer-artist-brand{
+  height:245px;
+	padding-bottom:10px;
+	float:top;
+	
+	background:url("../img/bg-login-footer.jpg") no-repeat; 
+}
+
 .mid-containers {
   padding-left: 29px;
   margin-top: 10px;
   float: left;
 }
+
+.login-form{
+position:relative;
+background:red;
+left:10px;
+top:100px;
+
+}
+
 
 .mid-box-table {
   border: 1px solid #efefef;
@@ -353,6 +385,7 @@ background-color:#fafafa;
 
 .table1 .table-odd-row{
  background: #8c8c8c;
+ width: 1024px;
 }
 
 .header-scorecard-logo {
