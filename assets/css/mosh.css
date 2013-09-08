@@ -48,9 +48,30 @@
   font-size: 30px;
 }
 
-.login-button-fan {
+.login-button {
+  display: block;
+  height: 31px;
   float: left;
+  background-color: #089edd;
+  color: #fff;
+  font-family: century-bold;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 12px;
+}
+
+.login-button.fan {
+  width: 522px;
   margin-right: 1px;
+}
+
+.login-button.artist-brand {
+  width: 501px;
+}
+
+.login-button:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* begin carousel custom */
@@ -106,6 +127,8 @@
 /* begin mid box container */
 .mid-containers {
   padding-left: 29px;
+  margin-top: 27px;
+  float: left;
 }
 
 .mid-box-container {
