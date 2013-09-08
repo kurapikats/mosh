@@ -7,12 +7,17 @@
 }
 
 @font-face {
+  font-family: "Arsenal-Regular";
+  src: url('../fonts/Arsenal-Regular.otf');
+}
+
+@font-face {
   font-family: "century-bold";
   src: url('../fonts/gothicb.ttf');
 }
 
 .container {
-  width: 1024px;
+  max-width: 1024px;
   background-color: #fff;
 }
 
@@ -31,7 +36,7 @@
   margin-left: 359px;
   border-left: 7px solid #42d3ff;
   height: 85px;
-  width: 575px;
+  max-width: 575px;
 }
 
 .tag-line p {
@@ -39,7 +44,7 @@
   padding-left: 30px;
   padding-top: 18px;
   line-height: 26px;
-  font-family: Arsenal-Bold;
+  font-family: "Arsenal-Bold";
   font-size: 30px;
 }
 
@@ -60,9 +65,16 @@
 }
 
 .carousel-indicators {
-  position: absolute;
-  top: 300px;
-  left: 465px;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 15px;
+  text-align: center;
+}
+
+.carousel-indicators li {
+  float: none;
+  display: inline-block;
 }
 
 .carousel-indicators li {
@@ -130,7 +142,37 @@
 
 .icons-store {
   margin: 0 auto;
-  width: 254px;
+  max-width: 254px;
   margin-top: 15px;
 }
 /* begin mid box container */
+
+.footer {
+  background-image: url('../img/bg-footer.jpg');
+  float: left;
+  width: 100%;
+}
+
+.follow-mosh {
+
+}
+
+.follow-icons {
+
+}
+
+.follow-icon {
+
+}
+
+.logo-footer {
+
+}
+
+.footer-links {
+
+}
+
+.copyright {
+
+}
