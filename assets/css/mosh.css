@@ -171,17 +171,27 @@
 /* begin mid box container */
 
 .footer {
-  background-image: url('../img/bg-footer.jpg');
+  background-image: url('../img/bg-footer1.jpg');
   float: left;
   width: 100%;
+  height: 165px;
 }
 
 .follow-mosh {
-
+  position: relative;
+  right: 10px;
+  float: right;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arsenal;
 }
 
 .follow-icons {
-
+  float: right;
+  margin-right: 20px;
+  bottom: 18px;
+  position: relative;
 }
 
 .follow-icon {
@@ -189,15 +199,66 @@
 }
 
 .logo-footer {
-
+  margin-top: 12px;
+  margin-left: 25px;
+  display: block;
 }
 
 .footer-links {
+  list-style: none;
+  font-family: Arsenal;
+  font-size: 16px;
+  margin-top:25px;
+}
 
+.footer-links li {
+  float: left;
+  border-left: 1px solid #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .copyright {
+  color: #fff;
+  font-family: Arsenal;
+  margin-left: 25px;
+  font-size: 15px;
+  margin-top: 8px;
+  float: left;
+}
 
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #005677;
+  border-bottom: 1px solid #3194bd;
+}
+
+.footer hr {
+  width:95%;
+}
+
+.footer .divider {
+  clear: both;
+  padding-top: 10px;
 }
 
 
