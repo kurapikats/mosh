@@ -121,7 +121,7 @@
 /* end carousel custom */
 
 .login-buttons {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */ /* enable this on html version */
 }
 
 /* begin mid box container */
