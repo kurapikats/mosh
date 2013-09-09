@@ -126,7 +126,7 @@
 
 /* begin mid box container */
 .mid-containers {
-  padding-left: 29px;
+  /* padding-left: 29px; */ /* enable this on html version */
   margin-top: 27px;
   float: left;
 }
