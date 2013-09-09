@@ -332,6 +332,10 @@ top:100px;
   margin-right: 10px;
 }
 
+.areaClick{
+cursor: pointer;
+background: url ("../img/bg-footer.jpg") repeat;
+}
 
 .mid-box-chart {
 
@@ -413,12 +417,103 @@ background-color:#fafafa;
 
 }
 
+
+.tag-line-categories {
+   height: 46px;
+  max-width: 670;
+
+}
+
+.tag-line-categories p {
+  color: #079edc;
+
+  line-height: 26px;
+ 	font-family:CenturyGothicBold;
+  font-size: 25px;
+}
+
 .tag-line-scorecard p {
   color: #079edc;
   padding-left: 4px;
   line-height: 26px;
  	font-family:CenturyGothicBold;
   font-size: 25px;
+}
+
+
+
+
+.box1 {
+    width: 347px;
+    height: 56px;
+		padding:1px;
+		margin-left:5px;
+    background: url("../img/a_temp-musicartist-button.jpg") no-repeat;
+}
+
+.box1-active {
+	 background: url("../img/a_active-temp-musicartist-button.jpg") no-repeat;
+}
+
+
+.box2 {
+    width: 347px;
+    height: 56px;
+		padding:1px;
+		margin-left:5px;
+    background: url("../img/a_temp-moviestar-button.jpg") no-repeat;
+}
+
+.box2-active {
+	 background: url("../img/a_active-temp-moviestar-button.jpg") no-repeat;
+}
+
+.box3 {
+    width: 347px;
+    height: 56px;
+		padding:1px;
+		margin-left:5px;
+    background: url("../img/a_temp-sportsstar-button.jpg") no-repeat;
+}
+
+.box3-active {
+	 background: url("../img/a_active-temp-sportsstar-button.jpg") no-repeat;
+}
+
+.box4 {
+    width: 347px;
+    height: 56px;
+		padding:1px;
+		margin-left:5px;
+    background: url("../img/a_temp-celebrities-button.jpg") no-repeat;
+}
+
+.box4-active {
+	 background: url("../img/a_active-temp-celebrities-button.jpg") no-repeat;
+}
+
+.box5 {
+    width: 347px;
+    height: 56px;
+		padding:1px;
+		margin-left:5px;
+    background: url("../img/a_temp-tvshow-button.jpg") no-repeat;
+}
+
+.box5-active {
+	 background: url("../img/a_active-temp-tvshow-button.jpg") no-repeat;
+}
+
+.box6 {
+    width: 347px;
+    height: 56px;
+		padding:1px;
+		margin-left:5px;
+    background: url("../img/a_temp-brands-button.jpg") no-repeat;
+}
+
+.box6-active {
+	 background: url("../img/a_active-temp-brands-button.jpg") no-repeat;
 }
 
 /******** End ALEC EDIT ***************/
