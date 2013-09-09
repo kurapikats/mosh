@@ -280,39 +280,39 @@ src: url("../fonts/gothicb.ttf");
 .header-scorecard {
   height:105px;
 	padding-bottom:10px;
-	
-	background:url("../img/bg-header-scorecard.png") repeat-x; 
-	
-	
+
+	background:url("../img/bg-header-scorecard.png") repeat-x;
+
+
 }
 
 .header-artist-brand{
   height:245px;
 	padding-bottom:10px;
 
-	background:url("../img/bg-login-header.jpg") no-repeat; 
+	background:url("../img/bg-login-header.jpg") no-repeat;
 }
 
 .middle-artist-brand{
   height:245px;
 	padding-bottom:10px;
-	
-	background:url("../img/bg-login-middle.jpg") no-repeat; 
+
+	background:url("../img/bg-login-middle.jpg") no-repeat;
 }
 
 .footer-artist-brand{
   height:245px;
 	padding-bottom:10px;
 	float:top;
-	
-	background:url("../img/bg-login-footer.jpg") no-repeat; 
+
+	background:url("../img/bg-login-footer.jpg") no-repeat;
 }
 
-.mid-containers {
+/*.mid-containers {
   padding-left: 29px;
   margin-top: 10px;
   float: left;
-}
+}*/
 
 .login-form{
 position:relative;
@@ -334,7 +334,7 @@ top:100px;
 
 
 .mid-box-chart {
-  
+
   width: 246px;
   height: 397px;
   float: left;
@@ -356,7 +356,7 @@ table.table1 td.icon{
   background: #8c8c8c;
 	font-family:CenturyGothicBold;
 	color:#ffffff;
-	
+
 }
 
 table td{
@@ -365,7 +365,7 @@ border-right:1px solid #acaaad;;
 }
 
 tbody.table-odd-row{
-	
+
 	font-family:CenturyGothic;
 	color:#8c8c8c;
 	}
@@ -378,7 +378,7 @@ padding-left:10px;
 }
 
 .table-odd-row	tr:nth-child(even)		{
-background-color:#fafafa; 
+background-color:#fafafa;
 }
 
 
@@ -391,8 +391,8 @@ background-color:#fafafa;
 .header-scorecard-logo {
   top: 10px;
   margin-left: 34px;
-	
-	
+
+
   position: absolute;
 }
 
@@ -410,7 +410,7 @@ background-color:#fafafa;
 .tag-line-scorecard {
    height: 55px;
   max-width: 575px;
-	
+
 }
 
 .tag-line-scorecard p {
