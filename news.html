@@ -46,10 +46,12 @@
       <img src="assets/img/temp-about-contact-news-bg.jpg" border="0" usemap="#Map3" />
 
       <div class="footer">
-        <img src="assets/img/temp-footer.jpg" border="0" usemap="#Map2" />
-        <map name="Map2">
-          <area shape="rect" coords="27,81,132,125" href="index.html">
-        </map>
+
+        <?php
+          $footer = file_get_contents('temp-footer.html');
+          echo $footer;
+        ?>
+
       </div>
     </div> <!-- /container -->
 

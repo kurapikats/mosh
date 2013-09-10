@@ -47,41 +47,13 @@
       <map name="Map3">
         <area shape="rect" coords="148,412,497,470" href="my-pit-movie-stars.html">
       </map>
-    
+
 			<div class="footer">
 
-        <ul class="footer-links">
-          <li><a href="about.html">About MOSH.</a></li>
-          <li><a href="news.html">MOSH. News</a></li>
-          <li><a href="contact.html">Contact MOSH.</a></li>
-        </ul>
-
-        <div class="divider">
-          <hr/>
-        </div>
-
-
-        <img class="logo-footer" src="assets/img/logo-footer.png" width="100"
-          height="40" alt="MOSH." />
-        <div class="copyright">&copy; 2013 MOSH. All Rights Reserved</div>
-
-        <br/>
-
-        <div class="follow-icons">
-          <a href="#">
-            <img class="follow-icon" src="assets/img/icon-facebook.jpg"
-            width="34" height="34" alt="Facebook" border="0">
-          </a>
-          <a href="#">
-            <img class="follow-icon" src="assets/img/icon-twitter.jpg"
-              width="34" height="34" alt="Twitter" border="0">
-          </a>
-          <a href="#">
-            <img class="follow-icon" src="assets/img/icon-instagram.jpg"
-              width="34" height="34" alt="Instagram" border="0">
-          </a>
-        </div>
-        <div class="follow-mosh">Follow MOSH. on</div>
+        <?php
+          $footer = file_get_contents('temp-footer.html');
+          echo $footer;
+        ?>
 
       </div>
     </div> <!-- /container -->
