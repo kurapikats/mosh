@@ -281,6 +281,10 @@ hr {
 
 }
 
+.footer table {
+  border:0;
+}
+
 .footer table td {
   margin:0;
   padding:0;
