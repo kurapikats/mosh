@@ -2,7 +2,7 @@
   color: #42d3ff; light blue
 */
 @font-face {
-  font-family: "Arsenal-Bold";
+  font-family: Arsenal-Bold;
   src: url('../fonts/Arsenal-Bold.otf');
 }
 
@@ -206,7 +206,7 @@
 
 .footer-links {
   list-style: none;
-  font-family: Arsenal;
+  font-family: Arsenal-Bold;
   font-size: 16px;
   margin-top:25px;
 }
